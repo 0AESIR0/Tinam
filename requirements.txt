@@ -1,0 +1,20 @@
+# Python ≥ 3.10 gereklidir
+
+# PyTorch — CUDA 12.x için (https://pytorch.org/get-started adresinden uygun sürümü seç)
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+torch>=2.2.0
+
+# HuggingFace ekosistemi
+transformers>=4.40.0
+tokenizers>=0.19.0
+safetensors>=0.4.0
+
+# Veri toplama (collect_data.py için)
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+
+# Dil tespiti (clean_data.py için)
+langdetect>=1.0.9
+
+# Opsiyonel — eğitim ilerleme çubuğu
+tqdm>=4.66.0
